@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07eb5dbf-b0a3-4580-96e3-67ba68788257" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/website/static/index.js" afterDir="false" />
+    <list default="true" id="07eb5dbf-b0a3-4580-96e3-67ba68788257" name="Changes" comment="completed till note creation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,15 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/user432/Desktop/Flask-Web-App-Tutorial"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user432/Desktop/Flask-Web-App-Tutorial&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
@@ -96,6 +91,19 @@
       <option name="presentableId" value="Default" />
       <updated>1707122303220</updated>
     </task>
+    <task id="LOCAL-00001" summary="completed till note creation">
+      <option name="closed" value="true" />
+      <created>1707213605423</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707213605423</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="completed till note creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed till note creation" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, request, flash, jsonify
+from flask import Blueprint, render_template, request, flash, jsonify, url_for, redirect
 from flask_login import login_required, current_user
 import json
 from website import db
@@ -24,14 +24,15 @@ def home():
     return render_template("home.html", user=current_user)
 
 
-@views.route('/delete-note', methods=['POST'])
-def delete_note():
-    note = json.loads(request.data)
-    noteId = note['noteId']
-    note = Note.query.get(noteId)
+@views.route('/delete-note/<int:note_id>', methods=['POST'])
+@login_required
+def delete_note(note_id):
+    note = Note.query.get(note_id)
     if note:
         if note.user_id == current_user.id:
             db.session.delete(note)
             db.session.commit()
+            flash('Note deleted successfully!', category='success')
+            return redirect(url_for('views.home'))
 
-    return jsonify({})
+    return render_template({})

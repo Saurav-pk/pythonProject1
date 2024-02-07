@@ -6,9 +6,11 @@
     {% for note in user.notes %}
     <li class="list-group-item">
         {{ note.data }}
-        <button type="button" class="close" onClick="deleteNote({{ note.id }})">
-            <span aria-hidden="true">&times;</span>
-        </button>
+        <form method="POST" action="{{ url_for('views.delete_note', note_id=note.id) }}">
+            <button type="submit" class="close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </form>
     </li>
     {% endfor %}
 </ul>
