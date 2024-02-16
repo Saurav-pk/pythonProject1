@@ -1,7 +1,7 @@
 from flask_login import login_user
 from werkzeug.security import generate_password_hash, check_password_hash
 from models.models import User
-from website import db
+from db import db
 
 
 class AuthService:

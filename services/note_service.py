@@ -1,4 +1,4 @@
-from website import db
+from db import db
 from models.models import Note
 from flask_login import current_user
 
